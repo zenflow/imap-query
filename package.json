@@ -1,0 +1,37 @@
+{
+  "name": "imap-query",
+  "version": "1.0.0",
+  "description": "Simple API for emitting emails, both existing at initialization and as they are received",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://zenflow@github.com/zenflow/imap-query.git"
+  },
+  "keywords": [
+    "imap",
+    "query",
+    "email",
+    "mail",
+    "message",
+    "messages",
+    "parse",
+    "parser",
+    "parsing",
+    "stream",
+    "streaming",
+    "simple"
+  ],
+  "author": "Matthew Francis Brunetti",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zenflow/imap-query/issues"
+  },
+  "homepage": "https://github.com/zenflow/imap-query",
+  "dependencies": {
+    "imap": "^0.8.14",
+    "mimelib": "^0.2.19"
+  }
+}
