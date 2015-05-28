@@ -8,11 +8,11 @@ Simple API for emitting emails, both existing at initialization and as they are 
 
 __WARNING__
 
-There is currently a bug in [imap](https://www.npmjs.com/package/imap) where a message body stream for *some* emails 
+There is currently a bug (mscdex/node-imap#476) in node-imap where a message body stream for *some* emails 
 will freeze in the middle, causing ImapQuery#check to never callback if it has to get any of those emails.
 
-*For the time being it is suggested to test this module with a sample of the emails you will be watching, before using 
-it in your project.*
+*For the time being it is suggested to test this module with a sample of the emails you will be watching for, before 
+using it in your project.*
 
 ### Todo
 * tape tests and travis ci
