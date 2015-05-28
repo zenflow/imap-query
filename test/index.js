@@ -1,7 +1,7 @@
 var ImapQuery = require('../lib');
-var config = require('./config');
+var account = require('./account');
 
-var imap_query = new ImapQuery(config, [["SUBJECT", "message from SPOT"], ["ALL"]]);
+var imap_query = new ImapQuery(account, [["SUBJECT", "message from SPOT"], ["ALL"]], {debug: 1});
 
 imap_query.check(function(error, updated){
     if (error){throw error;}
