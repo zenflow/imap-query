@@ -25,5 +25,6 @@ using it in your project.*
 * Added informal test
 * Updated readme with warning
 * Added debug mode
+* Random bug fixes
 #### v1.0.0
 * First release
