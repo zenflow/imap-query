@@ -12,6 +12,9 @@ Simple API for emitting emails, both existing at initialization and as they are 
 
 ### Changelog
 
+#### v2.0.2
+* Optimized streamToString
+
 #### v2.0.1
 * Fixed readme formatting
 
