@@ -6,20 +6,14 @@ Simple API for emitting emails, both existing at initialization and as they are 
 
 [![npm](https://nodei.co/npm/imap-query.svg?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/imap-query)
 
-__WARNING__
-
-There is currently a bug (mscdex/node-imap#476) in node-imap where a message body stream for *some* emails 
-will freeze in the middle, causing ImapQuery#check to never callback if it has to get any of those emails.
-
-*For the time being it is suggested to test this module with a sample of the emails you will be watching for, before 
-using it in your project.*
-
 ### Todo
-* tape tests and travis ci
 * readme writeup
 * examples
 
 ### Changelog
+#### v2.0.0
+* ImapQuery#check() now returns a Promise rather than taking a callback
+* Now emits 'changes' event rather than multiple add/delete events
 #### v1.0.1
 * Some internal refactoring
 * Added informal test
