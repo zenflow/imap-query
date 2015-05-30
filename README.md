@@ -11,14 +11,19 @@ Simple API for emitting emails, both existing at initialization and as they are 
 * examples
 
 ### Changelog
+
+#### v2.0.1
+* Fixed readme formatting
+
 #### v2.0.0
 * ImapQuery#check() now returns a Promise rather than taking a callback
 * Now emits 'changes' event rather than multiple add/delete events
+
 #### v1.0.1
 * Some internal refactoring
 * Added informal test
 * Updated readme with warning
-* Added debug mode
 * Random bug fixes
+
 #### v1.0.0
 * First release
